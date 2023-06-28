@@ -38,7 +38,7 @@ Before using this tool, make sure you have the following prerequisites installed
  ### To install and set up DomainRecon on Kali Linux, follow the steps below:
   - **Clone the repository:**
     ```bash
-    git clone <repository-url>
+    git clone https://github.com/muhsinbinirshad/domainRecon
 - **Navigate to the cloned repository:**
     ```bash
     cd domainRecon
@@ -53,6 +53,7 @@ Before using this tool, make sure you have the following prerequisites installed
    - **Run the DomainRecon script:**
      ```bash
      python3 domainRecon.py
+
  - **Enter the target domain when prompted.**
  - **The script will utilize the installed tools to find subdomains and check their activity.**
  - **The results will be stored in two separate text files: one for all subdomains and another for active subdomains.**

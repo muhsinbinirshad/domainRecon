@@ -44,7 +44,7 @@ Before using this tool, make sure you have the following prerequisites installed
     cd domainRecon
 - **Run the installation script to install all the tools:**
     ```bash
-    python3 install.py
+    python3 install-tools.py
 
 - **The script will automatically install the required tools (Amass, Subfinder, Sublist3r, Knockpy, and Httprobe). Follow any prompts or instructions during the installation proces
 ## Usage

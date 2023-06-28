@@ -42,6 +42,9 @@ Before using this tool, make sure you have the following prerequisites installed
 - **Navigate to the cloned repository:**
     ```bash
     cd domainRecon
+- ** Set Execute Permission  **
+   ```bash 
+    chmod +x install-tools.py
 - **Run the installation script to install all the tools:**
     ```bash
     python3 install-tools.py
@@ -50,8 +53,11 @@ Before using this tool, make sure you have the following prerequisites installed
 ## Usage
 ### To use DomainRecon for subdomain enumeration and activity checking, follow the steps below
 
-   - **Run the DomainRecon script:**
+   - **set Execute Permission**
      ```bash
+     chmod +x domainRecon.py
+   - **to run**  
+     ```bash 
      python3 domainRecon.py
 
  - **Enter the target domain when prompted.**

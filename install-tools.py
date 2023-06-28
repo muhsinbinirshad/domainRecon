@@ -10,7 +10,7 @@ tools = [
 
 for tool, command in tools:
     print(f"Installing {tool}...")
-    if os.system(command) == 0:
+    if os.system(f"sudo {command}") == 0:
         print(f"{tool} installed successfully!")
     else:
         print(f"Failed to install {tool}.")
